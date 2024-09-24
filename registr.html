@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>BBregistr</title>
+</head>
+<body>
+    <section class="registr">
+        <div class="registr">
+            <div class="registr__cross-block"><button onclick="window.location.href = 'index.html';" class="login__cross"></button></div>
+            <h1 class="registr__title">Регистрация аккаунта в BrownBear</h1>
+        </div>
+        <div class="registr__form">
+            <label class="registr__label" for="email"></label>
+            <input class="registr__input" type="text" id="user" placeholder="Введите почту " required  />
+            <label class="registr__label" for="password"></label>
+            <input class="registr__input" type="password" id="pwd" placeholder="Введите пароль" required />
+            <label class="registr__label" for="password"></label>
+            <input class="registr__input" type="password" id="pwd" placeholder="Повторите пароль" required />
+        </div>
+        
+        <input type="submit" id="submit" value="Войти" class="registr__login"/>
+        <img src="./assets/img/longline.svg" alt="line" class="registr">
+        <div class="registr__text-block"><p class="registr">Или создайте аккаунт с помощью</p></div>
+        <div class="registr__btns">
+            <button class="registr__btn"></button>
+            <button class="registr__btn registr__btn-vk"></button>
+        </div>
+        <img src="./assets/img/longline.svg" alt="line" class="registr">
+        <a href="login.html" class="registr__login-link">Не первый раз у нас? Войдите в аккаунт!</a>
+        
+    </section>
+</body>
+</html>

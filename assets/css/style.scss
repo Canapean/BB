@@ -1,0 +1,481 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+a{
+    text-decoration: none;
+}
+input:focus{outline: 0;}
+
+
+.header{
+    background-color: #755C48;
+    
+    &__block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__logo{
+        margin-right: 500px;
+    }
+    &__search-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        margin-right: 135px;
+      }
+      
+      &__search-box {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 90px;
+        width: 500px;
+      }
+      
+      &__search-icon {
+        margin-right: 10px;
+      }
+      
+      &__search-icon img {
+        max-width: 30px;
+      }
+      
+      &__search-box input {
+        flex-grow: 1;
+        border: none;
+        font-size: 16px;
+        padding: 10px;
+      }
+      
+      &__search-box input::placeholder {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 300;
+        color: #555;
+      }
+    &__links{
+        display: flex;
+        align-items: center;
+    }
+    &__link{
+        font-family: Montserrat;
+        color: #fff;
+        font-size: 28px;
+        font-weight: 800;
+    }
+    &__btns{
+        margin-left: 79px;
+    }
+    &__btn{
+        width: 232px;
+        height: 80px;
+        border-radius: 90px;
+        color: #755C48;
+        font-size: 32px;
+        font-weight: 800;
+    }
+}
+.main{
+    background: url(../img/moscowBG.jpg) no-repeat center center / cover;
+    height: 100vh;
+    
+    &__items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__textbg{
+        position: relative;
+        width: 920px;
+        height: 157px;
+        background-color: #fff;
+        border-radius: 150px;
+    }
+    &__block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text{
+        position: absolute;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        max-width: 840px;
+        text-align: center;
+    }
+    &__logo{
+        display: flex;
+        margin-top: 234px;
+    }
+}
+.adventge{
+    font-family: Montserrat;
+    &__title-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #755C48;
+        color: #fff;
+        max-width: 690px;
+        margin-top: 24px;
+        font-size: 48px;
+        font-weight: 800;
+        padding: 35px 67px;
+        border-radius: 80px;
+    }
+    &__blocks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__block{
+        display: flex;
+        justify-content: center;
+        background-color: #755C48;
+        width: 514px;
+        height: 328px;
+        margin-left: 127px;
+        margin-top: 181px;
+        border-radius: 50px;
+    }
+    &__block-title{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    &__text{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    &__pict-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__icon{
+        width: 90px;
+        height: 90px;
+    }
+    &__texts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 341px;
+        margin-left: 20px;
+    }
+}
+.info{
+    font-family: Montserrat;
+    
+    &__wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    &__pict{
+        margin-top: 243px;
+        margin-right: 150px;
+    }
+    &__texts-title{
+        font-size: 60px;
+        font-weight: 700;
+        color: #fff;
+        background-color: #755C48;
+        padding: 8px 60px 8px 60px;
+        border-radius: 150px;
+        margin-top: 243px;
+        margin-left: 94px;
+    }
+    &__block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 85px;
+    }
+    &__block-texts{
+        max-width: 715px;
+        margin-left: 70px;
+    }
+    &__block-title{
+        font-size: 48px;
+        font-weight: 700;
+        color: #FF773C;
+    }
+    &__block-text{
+        font-size: 32px;
+        font-weight: 700;
+        color: #555;
+    }
+}
+.popular{
+    margin-bottom: 155px;
+    &__title-block{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 140px;
+    }
+    &__routes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 125px;
+    }
+    &__block{
+        display: flex;
+    }
+    
+    &__title{
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+        font-weight: 700;
+        color: #fff;
+        background-color: #755C48;
+        padding: 60px 80px;
+        border-radius: 150px;
+        max-width: 950px;
+        margin-top: 243px;
+
+    }  
+}
+.footer{
+    background-color: #755C48;
+    color: #fff;
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__blocks{
+        display: flex;
+        margin-top: 40px;
+        
+    }
+    &__connect-links{
+        display: flex;
+        flex-direction: column;
+    }
+    &__connect-socials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__connect-social{
+        margin-right: 78px;
+        margin-bottom: 33px;
+    }
+    &__link-connect{
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        
+    }
+    &__number{
+        display: flex;
+        justify-content: center;
+        color: #1976D2;
+    }
+    &__title{
+        font-size: 32px;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 26px;
+    }
+    &__text{
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 41px;
+        &::before{
+            content:url('../img/line.png');
+            margin-right: 10px;
+        }
+    }
+    &__link{
+        font-size: 32px;
+        font-weight: 500; 
+        margin-bottom: 33px;
+    }
+    &__block{
+        margin-right: 100px;
+    }
+    &__link-number2{
+        color: #1976D2;
+        max-width: 471px;
+    } 
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__cross-block{
+        width: 720px;
+        display: flex;
+        justify-content: end;
+    }
+    &__cross{
+        background: url('../img/cross.svg');
+        height: 100px;
+        width: 100px;
+        border: none;
+    }
+    &__title{
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 800;
+        margin-bottom: 68px;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+    }
+    &__input{
+        width: 617px;
+        height: 100px;
+        background-color: #EFE7E7;
+        border-radius: 40px;
+        margin-bottom: 22px;
+        &::placeholder{
+            font-size: 24px;
+            font-weight: 300;
+            padding-left: 30px;
+        }
+
+    }
+    &__forget-block{
+        display: flex;
+        justify-content: start;
+        width: 617px;
+    }
+    &__forgot{
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__login{
+        color:#755C48 ;
+        background-color: #EFE7E7;
+        font-size: 40px;
+        font-weight: 800;
+        padding: 16px 110px;
+        border-radius: 90px;
+        margin-top: 40px;
+    }
+    &__text{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    &__btn{
+        background: url('../img/google.svg');
+        width: 75px;
+        height: 75px;
+        border-radius: 50px;
+        margin-right: 35px;
+        &-vk{
+            background: url('../img/VKbue.svg');
+            margin-left: 35px;
+        }
+    }
+    &__registr{
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
+.registr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__cross-block{
+        width: 720px;
+        display: flex;
+        justify-content: end;
+    }
+    &__cross{
+        background: url('../img/cross.svg');
+        height: 100px;
+        width: 100px;
+        border: none;
+    }
+    &__title{
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 800;
+        margin-bottom: 68px;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+    }
+    &__input{
+        width: 617px;
+        height: 100px;
+        background-color: #EFE7E7;
+        border-radius: 40px;
+        margin-bottom: 22px;
+        &::placeholder{
+            font-size: 24px;
+            font-weight: 300;
+            padding-left: 30px;
+        }
+
+    }
+    &__forget-block{
+        display: flex;
+        justify-content: start;
+        width: 617px;
+    }
+    &__forgot{
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__login{
+        color:#755C48 ;
+        background-color: #EFE7E7;
+        font-size: 40px;
+        font-weight: 800;
+        padding: 16px 110px;
+        border-radius: 90px;
+        margin-top: 40px;
+    }
+    &__text{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    &__btn{
+        background: url('../img/google.svg');
+        width: 75px;
+        height: 75px;
+        border-radius: 50px;
+        margin-right: 35px;
+        &-vk{
+            background: url('../img/VKbue.svg');
+            margin-left: 35px;
+        }
+    }
+    &__login-link{
+        font-size: 24px;
+        font-weight: 400;
+    }
+}

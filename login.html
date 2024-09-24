@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>BBlogin</title>
+</head>
+<body>
+    <section class="login">
+        <div class="login__title-block">
+            <div class="login__cross-block"><button onclick="window.location.href = 'index.html';" class="login__cross"></button></div>
+            <h1 class="login__title">Вход в аккаунт BrownBear</h1>
+        </div>
+        <div class="login__form">
+            <label class="login__label" for="email"></label>
+            <input class="login__input" type="text" id="user" placeholder="Введите почту " required  />
+            <label class="login__label" for="password"></label>
+            <input class="login__input" type="password" id="pwd" placeholder="Введите пароль" required />
+        </div>
+        <div class="login__forget-block"><a href="#" class="login__forgot">Забыли пароль?</a></div>
+        <input type="submit" id="submit" value="Войти" class="login__login"/>
+        <img src="./assets/img/longline.svg" alt="line" class="login__line">
+        <div class="login__text-block"><p class="login__text">Или войти с помощью</p></div>
+        <div class="login__btns">
+            <button class="login__btn"></button>
+            <button class="login__btn login__btn-vk"></button>
+        </div>
+        <img src="./assets/img/longline.svg" alt="line" class="login__line">
+        <a href="registr.html" class="login__registr">Нет аккаунта? Зарегестрируйся!</a>
+        
+    </section>
+</body>
+</html>
